@@ -1,0 +1,114 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+    color:#0A1D37;
+    font-size: 16px;
+    line-height: 1.6;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #0A1D37;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: #f39c12;
+    color: #000;
+}
+#site-title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color:#1a237e;
+    padding: 20px 0;
+}
+#contact-form{
+    width:60%;
+    margin:40px auto;
+    padding: 20px;
+    background-color:#e6f0ff;
+    border:3px solid #ccc;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.1);
+    display: block;
+}
+label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color:#0A1D37;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    color:#333;
+    background-color: #fdfdfd;
+    transition: 0.2s;
+}
+input:focus,textarea:focus,select:focus{
+    border-color: #1a73e8;
+}
+input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+label[for="Appreciation"],
+label[for="request"],
+label[for="other"] {
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+input[type="radio"] + label {
+    margin-bottom: 10px;
+}
+#user_choice {
+    margin-top: 20px;
+}
+form > * {
+    margin-bottom: 10px;
+}
+#submit-btn{
+    background-color: #1a73e8;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+#submit-btn:hover{
+    background-color: #0d47a1;
+}
+footer{
+    background-color: #0A1D37;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}

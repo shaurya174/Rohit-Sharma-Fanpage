@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="site-title">Get In Touch With Team Hitman!</h1>
+    <form action="get" id="contact-form">
+        <label for="username">Your Name: </label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" ><br><br>
+        <hr>
+        <label for="user-email">Email: </label>
+        <input type="email" id="user-email" name="user-email" placeholder="Enter your email" ><br><br>
+        <hr>
+        <label for="fan-message">Your View On Rohit Sharma: </label>
+        <textarea id="fan-message" name="fan-message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br><br>
+        <hr>
+        <label for="connection">How do you know Rohit?</label>
+        <select id="connection" name="connection">
+            <option value="fan">Fan</option>
+            <option value="journalist">Journalist</option>
+            <option value="collaborator">Collaborator</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <hr>
+        <label for="user-feedback">Your Feedback: </label><br>
+        <label for="Appreciation">Appreciation</label>
+        <input type="radio" id="Appreciation" name="user-feedback" value="Appreciation"><br>
+        <label for="request">Request: </label>
+        <input type="radio" id="request" name="user-feedback" value="Request"><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="user-feedback" value="Other"><br><br>
+        <hr>
+        <label for="user_choice">I agree to be contacted.</label>
+        <input type="checkbox" id="user_choice" name="user_choice" value="agree"><br><br>
+        <button id="submit-btn">Send Message</button>
+    </form>
+    <footer>
+        <p>&copy; 2025 Shaurya Mittal</p>
+    </footer>
+</body>
+</html>
